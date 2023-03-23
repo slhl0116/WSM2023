@@ -1,0 +1,11 @@
+<!DOCTYPE html> == 브라우저에 맞게 알아서 해석~~
+<html lang="en"> == 영어로 써져 있어요
+<meta charset="UTF-8"> == utf-8로 해석
+
+<ul> == Unordered List
+<ol> == Ordered List
+<li> == List Item
+
+img alt 태그 == 이미지를 글자로 보여주거나 눈으로 보지 못하는 사람에게 읽어주는 멘트
+
+radio 태그 == 한 번에 한 주파수만 들을 수 있어서 라디오임
