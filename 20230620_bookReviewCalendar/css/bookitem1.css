@@ -4,6 +4,9 @@
     gap: 80px; /* column-gap:80px; row- gap: 80px; */
     flex-wrap: wrap;
     justify-content: center; /* 메인축(수평) 가운데로 */
+    max-width: calc(150px * 7 + 80px * 3); /*한 줄에 최대 2개의 row-container, 4개의 book-item*/
+    margin-left: auto;  /*좁아진 book-self 자체를 가운데로*/
+    margin-right: auto;
 }
 .row-container{
     display:flex; /* 수평 배열 */
@@ -14,7 +17,7 @@
 .book-item > img {
     width:150px;
     box-shadow: 0px 16px 32px #DDD; /*x, y, 퍼지는 정도, 색*/
-    transition: all 0.2s;
+    transition: all 0.1s;
 
 }
 .book-item>img:hover{
