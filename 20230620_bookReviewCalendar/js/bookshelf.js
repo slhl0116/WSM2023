@@ -16,4 +16,4 @@ for(let bookItem of bookItems){ // .book-item 하나씩 꺼내자
 // const bookItemImg = bookItem.getElementsByTagName("img")[0];
 // console.log(bookItemImg)
 // bookItemImg.src = books[3].img; 
-// bookItemImg.src = books[3].["img"]; 일관성 있어보임? 대괄호니까.. 
+// bookItemImg.src = books[3].["img"]; 일관성 있어보임? 대괄호니까... 
