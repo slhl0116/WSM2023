@@ -1,0 +1,24 @@
+main {
+    margin-top: calc(44px + 100px);
+}
+
+main div {
+    border: 2px solid violet;
+}
+
+/* #review {
+    display: flex;
+}
+.img {
+    width: 200px;
+    height: 400px;
+}
+.contents {
+    display: flex;
+    flex-wrap:wrap;
+}
+.content1,
+.content2,
+.content3 {
+    width: 200px;
+} */
