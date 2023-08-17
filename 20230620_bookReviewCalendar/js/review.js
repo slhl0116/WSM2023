@@ -28,6 +28,13 @@
 let url_href = window.location.href;    //브라우저 창에 있는 주
 const bookId = new URL(url_href).searchParams.get("book");
 console.log(`bookId: ${bookId}, type : ${typeof bookId}`);
+//bookId가 null이면, index.html로 가자
+// link = 'index1.html';
+if(bookId==null){
+    // location.replace(link);
+    window.location.href="index.html";
+    //window.open("index.html", target="_top");
+}
 
 //-> String 을 number로 변환:bookIdNumber 
 let bookIdNumber = parseInt(bookId);    //string->number
@@ -101,4 +108,4 @@ bookImageDiv.innerHTML = `<img src="${bookImage}"/>`;
 // // HTMl에 넣자
 // // HTML 요소 -> js 변수
 // const titleDiv = document.getElementsByClassName("title");
-// titleDiv.innerHTML = title;
+// titleDiv.innerHTML = title;  
