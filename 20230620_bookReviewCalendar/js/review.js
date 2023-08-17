@@ -73,6 +73,17 @@ const publisherDiv = document.getElementsByClassName("publisher")[1];
 publisherDiv.innerHTML = `<u>${publisher}</u>`;
 const bookImageDiv = document.getElementsByClassName("book-image")[0];
 bookImageDiv.innerHTML = `<img src="${bookImage}"/>`;
+const readDateDiv = document.getElementsByClassName("read-date")[1];
+let now = new Date();
+let year = now.getFullYear();
+let month = now.getMonth();
+let date = now.getDate();
+
+var week = new Array('일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일');
+let day = now.getDay();
+let todayLabel = week[day];
+now = `${year}년 ${month+1}월 ${date}일 ${todayLabel}`;
+readDateDiv.innerHTML = now;
 
 
 // //수업ver.
